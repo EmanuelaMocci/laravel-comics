@@ -1,7 +1,8 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;
 
-300;400;500;700;900&display=swap);body {
-  font-family: "Roboto", sans-serif;
+700&display=swap);body {
+  font-family: "PT Sans Narrow", sans-serif;
+  letter-spacing: 0.8px;
 }
 
 * {
@@ -26,14 +27,87 @@
   display: flex;
   color: #ffff;
   padding: 8px 0 8px 50px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .header-top .text h5 span {
-  font-size: 5px;
+  font-size: 7px;
 }
 
 .header-top .text h5 i {
   padding-left: 5px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  max-width: 70%;
+  margin: auto;
+}
+
+.header-bottom img {
+  width: 70px;
+}
+
+.header-bottom ul {
+  display: flex;
+}
+
+.header-bottom ul li {
+  list-style: none;
+  padding-left: 25px;
+}
+
+.header-bottom ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  color: #4F4948;
+  font-weight: bold;
+}
+
+.header-bottom ul li a i {
+  color: #0082F9;
+  padding-left: 5px;
+}
+
+.search {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.search input {
+  text-align: end;
+  font-size: 12px;
+  padding: 0 10px 5px 0;
+  max-width: 80%;
+  border: none;
+  border-bottom: 2px solid #0082F9;
+  outline: none;
+}
+
+.search ::-moz-placeholder {
+  color: #4F4948;
+  font-weight: bold;
+}
+
+.search :-ms-input-placeholder {
+  color: #4F4948;
+  font-weight: bold;
+}
+
+.search ::placeholder {
+  color: #4F4948;
+  font-weight: bold;
+}
+
+.search i {
+  color: #4F4948;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
 }
 
