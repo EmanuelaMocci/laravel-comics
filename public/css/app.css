@@ -63,9 +63,20 @@
 .header-bottom ul li a {
   font-size: 15px;
   text-decoration: none;
-  display: flex;
   color: #4F4948;
   font-weight: bold;
+}
+
+.header-bottom ul li a:hover {
+  color: #0082F9;
+  border-bottom: 4px solid #0082F9;
+  padding-bottom: 46px;
+}
+
+.header-bottom ul li a.active {
+  color: #0082F9;
+  border-bottom: 4px solid #0082F9;
+  padding-bottom: 46px;
 }
 
 .header-bottom ul li a i {
