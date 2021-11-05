@@ -2,5 +2,18 @@
 
 @section('pageContent')
     {{-- codice main --}}
-    <h1>ciao</h1>
+    <section>
+        <div class="container">
+            <ul>
+                @foreach ($immagini as $immagine)
+                    <li>
+                        <img src="{{$immagine["thumb"]}}" alt="">
+                        <h3>{{$immagine["series"]}}</h3>
+                    </li>
+                @endforeach
+            </ul>
+
+            
+        </div>
+    </section>
 @endsection
