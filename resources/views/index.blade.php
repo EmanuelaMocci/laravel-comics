@@ -8,16 +8,24 @@
         </div>
     </section>
     
-    <section>
+    
+
+    <section class="immagini-container">
+        <h2 class="current-series">
+            CURRENT SERIES
+        </h2>
         <div class="container">
             <ul>
                 @foreach ($immagini as $immagine)
                     <li>
                         <img src="{{$immagine["thumb"]}}" alt="">
-                        <h3>{{$immagine["series"]}}</h3>
+                        <h4>{{$immagine["series"]}}</h4>
                     </li>
                 @endforeach
             </ul>
+        </div>
+        <div class="btn">
+            <button>LOAD MORE</button>
         </div>
     </section>
 @endsection
