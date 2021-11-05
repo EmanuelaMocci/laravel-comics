@@ -12,8 +12,6 @@
                     </li>
                 @endforeach
             </ul>
-
-            
         </div>
     </section>
 @endsection
