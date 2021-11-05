@@ -3,6 +3,12 @@
 @section('pageContent')
     {{-- codice main --}}
     <section>
+        <div class="hero">
+            <img src="{{asset('laravel-comics/images/jumbotron.jpg')}}" alt="">
+        </div>
+    </section>
+    
+    <section>
         <div class="container">
             <ul>
                 @foreach ($immagini as $immagine)
