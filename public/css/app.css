@@ -20,13 +20,12 @@
   word-spacing: 1px;
 }
 .header-top .text h5 {
-  display: flex;
   color: #ffff;
   padding: 8px 0 8px 50px;
   font-size: 12px;
 }
-.header-top .text h5 span {
-  font-size: 7px;
+.header-top .text h5 sup {
+  font-size: 8px;
 }
 .header-top .text h5 i {
   padding-left: 5px;
@@ -105,16 +104,11 @@
 }
 
 .hero {
+  background-image: url("/laravel-comics/images/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
   height: 300px;
   width: 100%;
-}
-.hero img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
 }
 
 .immagini-container {
@@ -174,4 +168,30 @@
   padding: 10px 70px;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
+}
+
+.info-container {
+  background-color: #0082F9;
+}
+.info-container .info {
+  display: flex;
+  justify-content: space-around;
+  max-width: 70%;
+  margin: auto;
+  padding: 40px 0;
+}
+.info-container .info .img-info {
+  display: flex;
+  align-items: center;
+}
+.info-container .info .img-info img {
+  height: 50px;
+}
+.info-container .info .visa img {
+  width: 50px;
+}
+.info-container .info span {
+  font-size: 13px;
+  color: #ffff;
+  padding-left: 15px;
 }
