@@ -3,9 +3,7 @@
 @section('pageContent')
     {{-- codice main --}}
     <section>
-        <div class="hero">
-            {{-- <img src="{{asset('laravel-comics/images/jumbotron.jpg')}}" alt=""> --}}
-        </div>
+        <div class="hero"></div>
     </section>
 
     <section class="immagini-container">
@@ -16,14 +14,14 @@
             <ul>
                 @foreach ($immagini as $immagine)
                     <li>
-                        <img src="{{$immagine["thumb"]}}" alt="">
+                        <a href="#"><img src="{{$immagine["thumb"]}}" alt="Immagine fumetto"></a>
                         <h4>{{$immagine["series"]}}</h4>
                     </li>
                 @endforeach
             </ul>
         </div>
         <div class="btn">
-            <button>LOAD MORE</button>
+            <button><a href="#">LOAD MORE</a></button>
         </div>
     </section>
 

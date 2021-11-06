@@ -31,6 +31,7 @@
                     font-size: 13px;
                     text-transform: uppercase;
                     padding-top: 15px;
+                    width: 150px;
                 }
            }
         }
@@ -54,11 +55,16 @@
     padding-bottom: 30px;
     button{
         background-color: $mainColor;
-        color: $textColor1;
         border: none;
         padding: 10px 70px;
         font-family: 'PT Sans Narrow', sans-serif;
         font-weight: 700;
+        text-decoration: none;
+        cursor: pointer;
+        a{
+            color: $textColor1;
+            text-decoration: none;
+        }
     }
 }
 

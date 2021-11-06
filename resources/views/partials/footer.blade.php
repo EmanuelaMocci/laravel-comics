@@ -56,14 +56,14 @@
 
     <div class="footer-bottom">
         <div class="footer-container">
-            <button>SIGN-UP NOW!</button>
+            <button><a href="#">SIGN-UP NOW!</a></button>
             <div class="social">
                 <div>FOLLOW US</div>
-                <img src="{{asset('laravel-comics/images/footer-facebook.png')}}" alt="">
-                <img src="{{asset('laravel-comics/images/footer-twitter.png')}}" alt="">
-                <img src="{{asset('laravel-comics/images/footer-youtube.png')}}" alt="">
-                <img src="{{asset('laravel-comics/images/footer-pinterest.png')}}" alt="">
-                <img src="{{asset('laravel-comics/images/footer-periscope.png')}}" alt="">
+                <a href="#"><img src="{{asset('laravel-comics/images/footer-facebook.png')}}" alt="Logo Facebook"></a>
+                <a href="#"><img src="{{asset('laravel-comics/images/footer-twitter.png')}}" alt="Logo Twitter"></a>
+                <a href="#"><img src="{{asset('laravel-comics/images/footer-youtube.png')}}" alt="Logo Youtube"></a>
+                <a href="#"><img src="{{asset('laravel-comics/images/footer-pinterest.png')}}" alt="Logo Pinterest"></a>
+                <a href="#"><img src="{{asset('laravel-comics/images/footer-periscope.png')}}" alt="Logo Periscope"></a>
             </div>
         </div>
     </div>
