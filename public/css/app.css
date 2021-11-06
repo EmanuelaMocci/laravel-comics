@@ -195,3 +195,52 @@
   color: #ffff;
   padding-left: 15px;
 }
+
+.footer-top {
+  height: 370px;
+  width: 100%;
+  background-image: url("/laravel-comics/images/dc-logo-bg.png"), url("/laravel-comics/images/footer-bg.jpg");
+  background-position: right 25% center, left top;
+  background-size: 480px, cover;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.lista-container {
+  display: flex;
+  max-width: 70%;
+  margin: auto;
+  padding-top: 30px;
+}
+.lista-container .lista {
+  padding-right: 30px;
+}
+.lista-container .lista h4 {
+  color: #ffff;
+}
+.lista-container .lista ul {
+  padding: 8px 0;
+}
+.lista-container .lista ul li {
+  list-style: none;
+}
+.lista-container .lista ul li a {
+  color: grey;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.7px;
+}
+.lista-container .lista .shop {
+  padding-top: 13px;
+}
+
+.cookies {
+  max-width: 70%;
+  margin: auto;
+  color: grey;
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  padding-top: 10px;
+}
+.cookies span {
+  color: #0082F9;
+}
