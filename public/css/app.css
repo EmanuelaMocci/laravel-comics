@@ -58,12 +58,12 @@
 .header-bottom ul li a:hover {
   color: #0082F9;
   border-bottom: 4px solid #0082F9;
-  padding-bottom: 46px;
+  padding-bottom: 41px;
 }
 .header-bottom ul li a.active {
   color: #0082F9;
   border-bottom: 4px solid #0082F9;
-  padding-bottom: 46px;
+  padding-bottom: 41px;
 }
 .header-bottom ul li a i {
   color: #0082F9;
