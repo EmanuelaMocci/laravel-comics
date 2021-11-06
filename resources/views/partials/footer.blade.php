@@ -53,4 +53,18 @@
             <span>Cookies settings</span>
         </div>
     </div>
+
+    <div class="footer-bottom">
+        <div class="footer-container">
+            <button>SIGN-UP NOW!</button>
+            <div class="social">
+                <div>FOLLOW US</div>
+                <img src="{{asset('laravel-comics/images/footer-facebook.png')}}" alt="">
+                <img src="{{asset('laravel-comics/images/footer-twitter.png')}}" alt="">
+                <img src="{{asset('laravel-comics/images/footer-youtube.png')}}" alt="">
+                <img src="{{asset('laravel-comics/images/footer-pinterest.png')}}" alt="">
+                <img src="{{asset('laravel-comics/images/footer-periscope.png')}}" alt="">
+            </div>
+        </div>
+    </div>
 </footer>

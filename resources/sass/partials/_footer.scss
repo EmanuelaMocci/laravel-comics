@@ -46,3 +46,35 @@
         color: $mainColor;
     }
 }
+
+// footer-bottom
+.footer-bottom{
+    background-color: #303030;
+    .footer-container{
+        max-width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        button{
+            border: none;
+            border: 2px solid $mainColor;
+            background-color: transparent;
+            color: white;
+            padding: 10px;
+        }
+        .social{
+            display: flex;
+            align-items: center;
+            img{
+                padding-left: 20px;
+                width: 50px;
+            }
+            div{
+                color: $mainColor;
+                font-weight: 900;
+            }
+        }
+    }
+}
+// /footer-bottom
